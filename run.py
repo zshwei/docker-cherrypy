@@ -12,4 +12,4 @@ cherrypy.config.update({
     'tools.trailing_slash.on': False # True is default
 })
 
-cherrypy.quickstart(Landing(), '/')
+cherrypy.quickstart(Landing(), '/', "prod.conf")
