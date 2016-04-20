@@ -12,4 +12,5 @@ cherrypy.config.update({
     'tools.trailing_slash.on': False # True is default
 })
 
-cherrypy.quickstart(Landing(), '/', "prod.conf")
+if __name__ == "__main__":
+    cherrypy.quickstart(Landing(), '/', "prod.conf")

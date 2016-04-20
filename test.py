@@ -1,4 +1,5 @@
 import unittest
+import run
 
 class TestMethods(unittest.TestCase):
     def test_simple(self):
